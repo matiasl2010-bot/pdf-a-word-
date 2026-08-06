@@ -1,0 +1,18 @@
+# Credenciales: config.json guarda las API keys en texto plano.
+# El patron sin barra matchea a cualquier profundidad (tambien dist/config.json).
+config.json
+app.log
+
+# Notas internas para Claude Code: se usan localmente (scripts/update-index.ps1
+# las lee para armar el INDEX.md del monorepo) pero no van al repo publico.
+CLAUDE.md
+
+# Artefactos de build y entorno
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
